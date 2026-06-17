@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+<title>The structure of HTML</title>
+</head>
+<body>
+<p>
+Hello world!<br/>HTML stands for HyperText Markup Language.<br/>
+It was intro of HTML
+</p>
+</body>
