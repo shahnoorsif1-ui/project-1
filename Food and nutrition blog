@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoHub: Sustainable Living Blog</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>EcoHub: Green Living & Sustainability Blog</h1>
+
+    <nav>
+      <a href="#eco-habits">Eco Habits</a> |
+      <a href="#green-tips">Green Tips</a> |
+      <a href="#eco-video">Watch Video</a> |
+      <a href="#connect">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="eco-habits">
+      <h2>Building Sustainable Habits</h2>
+
+      <article>
+        <h3>Why Everyday Recycling Matters</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=300&h=200&fit=crop"
+            alt="Coloured recycling bins for sorting plastic, paper, and glass"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Proper sorting of plastic, paper, and organic waste protects local ecosystems.
+          </figcaption>
+        </figure>
+
+        <p>
+          Small recycling adjustments in our daily routines drastically reduce landfill waste. 
+          By taking a moment to separate glass, paper, and plastics, we preserve raw natural resources.
+        </p>
+
+        <p>
+          Learn more about local recycling guidelines here:
+          <a href="https://www.epa.gov/recycle" target="_blank">
+            EPA Recycling Guide
+          </a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Smart Plastic Alternatives</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=300&h=200&fit=crop"
+            alt="A reusable canvas tote bag alongside bamboo toothbrushes"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Switching to reusable canvas bags and bamboo products lowers your daily carbon footprint.
+          </figcaption>
+        </figure>
+
+        <p>
+          Single-use plastics take hundreds of years to break down in our oceans and soil. 
+          Swapping out plastic grocery bags for canvas totes and choosing metal straws helps heal the earth.
+        </p>
+
+        <p>
+          Explore more sustainability facts here:
+          <a href="https://www.unep.org/" target="_blank">
+            UN Environment Programme
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <section id="green-tips">
+      <h2>Green Tips for Students</h2>
+
+      <article>
+        <h3>Conserve Energy in Your Room</h3>
+
+        <p>
+          Unplugging device chargers when they aren't actively in use prevents "vampire" power draw. 
+          Turning off overhead lights when leaving your room is an easy way to save electricity.
+        </p>
+      </article>
+
+      <article>
+        <h3>Switch to Refillable Bottles</h3>
+
+        <p>
+          Carrying a reusable stainless steel water bottle eliminates reliance on single-use bottles. 
+          It keeps plastic out of the environment and keeps your drinks colder for longer.
+        </p>
+
+        <p>
+          Read more about student climate action here:
+          <a href="https://www.climaterealityproject.org/" target="_blank">
+            Climate Reality Project
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>Quick Eco Note</h2>
+
+      <div>
+        <p>
+          Try the "Refuse, Reduce, Reuse" rule: decline items you don't need, cut back on what 
+          you do buy, and find a secondary purpose for everything you can.
+        </p>
+
+        <p>
+          Share your green living tips here:
+          <a href="https://forms.gle/" target="_blank">
+            Eco Suggestion Form
+          </a>
+        </p>
+      </div>
+    </aside>
+
+    <section id="eco-video">
+      <h2>Watch and Learn About Ecosystems</h2>
+
+      <p>
+        Watch this brief video to understand how small community changes lead to massive global impacts.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ScMzIvxBSi4"
+        title="Sustainability Video"
+        allowfullscreen>
+      </footer>
+    </section>
+
+    <section id="connect">
+      <h2>Contact the EcoHub Blog Team</h2>
+
+      <p>
+        Have an awesome eco-friendly project or conservation tip to share? Drop us a line.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:contact@ecohub-example.com">
+          contact@ecohub-example.com
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 EcoHub Green Living & Sustainability Blog. All rights reserved.</p>
+
+    <p>
+      Learn more about eco-friendly habits:
+      <a href="https://www.worldwildlife.org/" target="_blank">
+        World Wildlife Fund
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
