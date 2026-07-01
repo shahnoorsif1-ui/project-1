@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuel Your Body: Student Nutrition Guide</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Fuel Your Body: The Teen Nutrition & Wellness Blog</h1>
+
+    <nav>
+      <a href="#healthy-plate">Healthy Plate</a> |
+      <a href="#nutrition-tips">Nutrition Tips</a> |
+      <a href="#video">Watch Video</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="healthy-plate">
+      <h2>The Art of a Balanced Plate</h2>
+
+      <article>
+        <h3>The Power of Well-Rounded Meals</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=300&h=200&fit=crop"
+            alt="A freshly prepared colorful salad bowl with avocado, eggs, and greens"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            A vibrant, well-rounded meal provides sustained physical stamina and mental focus.
+          </figcaption>
+        </figure>
+
+        <p>
+          Distributing your food groups evenly ensures your mind and body get clean energy to get through the school day. 
+          Prioritizing a mix of leafy greens, complex carbohydrates, and clean proteins keeps you feeling full and alert.
+        </p>
+
+        <p>
+          Check out alternative meal ideas here:
+          <a href="https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/" target="_blank">
+            Harvard Healthy Eating Plate
+          </a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Smarter Snacking for Energy</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=300&h=200&fit=crop"
+            alt="A selection of raw almonds, walnuts, and mixed fresh berries"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Nutrient-dense options like raw nuts and fresh berries prevent afternoon fatigue.
+          </figcaption>
+        </figure>
+
+        <p>
+          Snacking is highly beneficial when you swap processed chips and sugary sodas for whole foods. 
+          Grabbing a handful of pumpkin seeds, sliced fruit, or Greek yogurt offers energy without the typical sugar crash.
+        </p>
+
+        <p>
+          Discover foundational diet facts here:
+          <a href="https://www.cdc.gov/nutrition/index.html" target="_blank">
+            CDC Nutrition Resources
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <section id="nutrition-tips">
+      <h2>Essential Wellness Tips for Students</h2>
+
+      <article>
+        <h3>Prioritize Daily Hydration</h3>
+
+        <p>
+          Drinking adequate amounts of water maximizes brain concentration, aids digestion, and keeps skin healthy. 
+          Try carrying a reusable water container to class to help build a consistent sipping habit.
+        </p>
+      </article>
+
+      <article>
+        <h3>Eat From the Rainbow</h3>
+
+        <p>
+          The bright colors found in different fruits and vegetables indicate distinct vitamins and protective minerals. 
+          Aiming for a colorful layout across your meals naturally ensures a highly nutritious diet.
+        </p>
+
+        <p>
+          Read up on healthy food selections here:
+          <a href="https://www.nutrition.gov/" target="_blank">
+            Nutrition.gov Resources
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>Quick Nutrition Note</h2>
+
+      <div>
+        <p>
+          Try utilizing the 50-25-25 rule: dedicate half of your meal container to colorful produce, 
+          one quarter to whole grains, and the final quarter to a solid protein source.
+        </p>
+
+        <p>
+          Submit your favorite healthy recipes here:
+          <a href="https://forms.gle/" target="_blank">
+            Student Recipe Submission Form
+          </a>
+        </p>
+      </div>
+    </aside>
+
+    <section id="video">
+      <h2>Learn the Science of Food</h2>
+
+      <p>
+        Watch this brief educational clip to see exactly how specific nutrients impact your daily productivity.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xyQY8a-ng6g"
+        title="Healthy Eating Video Guide"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Reach Out to Our Wellness Team</h2>
+
+      <p>
+        Do you have an awesome original snack tip or a healthy recipe to highlight? Send it our way!
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:info@studentnutritionblog.org">
+          info@studentnutritionblog.org
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Fuel Your Body Student Blog. All rights reserved.</p>
+
+    <p>
+      Explore more about dietary guidelines:
+      <a href="https://www.nutrition.gov/" target="_blank">
+        Official Nutrition.gov Site
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
