@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School registration form</title>
+</head>
+<body>
+<h2>Personal information</h2>
+ <form action="" method="post">
+<label>Fullname:</label>
+<input type="text" name="username"><br><br>
+<label>Email:</label>
+<input type="email" name="email" r><br><br>
+<label>Phone number:</label>
+<input type="tel" name="phone" ><br><br>
+<label>Address:</label>
+<input type="text" name="address" ><br><br>
+
+      <label>Birthday</label>
+     <input type="date" name="Birthday"><br><br>
+      <label>Select your Grade</label>
+        <select>
+            <option>Playgroup</option>
+            <option>Nursery</option>
+           <option>Kinder garten</option>
+            <option>1 Grade</option>
+            <option>2 Grade</option>
+            <option>3 Grade</option>
+            <option>4 Grade</option>
+            <option>5 Grade</option>
+            <option>6 Grade</option>
+            <option>7 Grade</option>
+        </select><br><br>
+     <label>Gender</label><br><br>
+     <input type="radio" name="subject" value="Male"> Male<br><br>
+      <input type="radio" name="subject" value="Female"> Female
+      <h4>If first time going to school skip it!</h4>
+      <fieldset>
+         <legend>Previous school</legend>
+          <label>Name of your previous school:</label>
+          <input type="text" name="Name">
+          <input type="submit" name="name"><br><br>
+       <label>Why did you leave you're previous school?</label> <input type="text" name="reason">
+      <input type="submit" name="name"><br><br>
+      <label>Your last years score</label><br>
+      <input type="radio" name="score value="Above 90%">Above 90%<br>
+       <input type="radio" name="score" value="Above 80%">Above 80%<br>
+        <input type="radio" name="score" value="Between 60-70%">Between 60-70%<br>
+          <input type="radio" name="score" value="Between 50-60%">Between 50-60%<br>
+            <input type="radio" name="score" value="Under 50%">Under 50%<br>
+      </fieldset>
+      Passport size picture:</label><br><br>
+      <input type="file" name="fileupload" accept="image/*" />
+       <center>
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset" value="Reset" />
+</form>
+</body>
+</html>
