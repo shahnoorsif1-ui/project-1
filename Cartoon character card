@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cartoon Character Card</title>
+
+  <style>
+    /* Universal Selector - matches success criteria */
+    * {
+      font-size: 16px;
+    }
+
+    /* Element Selectors */
+    body {
+      background-color: #f0f4f8; /* Soft blue-gray background */
+    }
+
+    h1 {
+      color: #1a365d; /* Dark navy */
+    }
+
+    h2 {
+      color: #2c5282; /* Slate blue */
+    }
+
+    p {
+      color: #4a5568; /* Charcoal gray text */
+    }
+
+    /* Class Selector - matches success criteria */
+    .cartoon-detail {
+      color: darkgreen;
+      font-weight: bold;
+    }
+
+    /* ID Selector - styles your specific character box card */
+    #cartoon-card {
+      background-color: lightcyan; /* Cyan background required by criteria */
+      border: 2px dashed #2b6cb0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Cartoon Character Card</h1>
+
+  <p style="color: crimson;">Meet my favorite cartoon character!</p>
+
+  <div id="cartoon-card">
+    <h2>About My Character</h2>
+    <p class="cartoon-detail">Character Name: SpongeBob SquarePants</p>
+    <p class="cartoon-detail">Best Friend: Patrick Star</p>
+    <p class="cartoon-detail">Favorite Food: Krabby Patties</p>
+    <p class="cartoon-detail">Special Power: Extreme Fry Cooking & Shape-shifting</p>
+  </div>
+
+  <h2>Why I Like This Character</h2>
+  <p>SpongeBob is incredibly joyful, optimistic, and a loyal friend.</p>
+  <p>He always looks on the bright side of things no matter what goes wrong.</p>
+  <p>He reminds us to stay creative, laugh every single day, and work hard.</p>
+
+</body>
+</html>
