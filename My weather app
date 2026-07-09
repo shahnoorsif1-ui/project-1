@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lahore Weather App - Pink Edition</title>
+ 
+  <style>
+    /* Universal selector: applies basic settings to the full page */
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+ 
+    /* Body background uses a soft pink colour and white radial dot pattern */
+    body {
+      background-color: #ffb6c1; /* Light Pink */
+      background-image: radial-gradient(circle, white 2px, transparent 3px);
+      background-size: 40px 40px;
+      background-repeat: repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+ 
+    h1 {
+      font-size: 36px;
+      color: white;
+      margin-bottom: 5px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    }
+ 
+    .subtitle {
+      font-size: 18px;
+      color: #fff0f5; /* Lavender Blush */
+      margin-bottom: 30px;
+    }
+ 
+    .weather-card {
+      width: 400px;
+      border: 3px solid white;
+      border-radius: 20px;
+      /* Gradient from Deep Rose to Cotton Candy Pink */
+      background-image: linear-gradient(to bottom right, #ff1493, #ffb6c1);
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    }
+ 
+    .weather-icon {
+      font-size: 70px;
+      animation: floatCloud 3s infinite alternate;
+      margin: 10px 0;
+    }
+ 
+    #temperature {
+      font-size: 48px;
+      font-weight: bold;
+      color: #fffacd; /* Soft Lemon Yellow for contrast */
+      margin: 10px 0;
+    }
+ 
+    .details {
+      font-size: 18px;
+      color: white;
+      margin: 5px 0;
+    }
+ 
+    .forecast-section {
+      width: 600px;
+      border: 3px solid white;
+      border-radius: 15px;
+      /* Soft pink to white radial background */
+      background-image: radial-gradient(circle, white, #ffe4e1); 
+      color: #8b008b; /* Dark Magenta text for readability */
+      padding: 20px;
+      box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    }
+ 
+    .forecast-title {
+      color: #8b008b; /* Dark Magenta */
+      margin-top: 0;
+    }
+ 
+    .day {
+      border: 2px solid #ff69b4; /* Hot Pink Border */
+      font-size: 17px;
+      color: #8b008b;
+      background-color: rgba(255, 255, 255, 0.7);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: left;
+    }
+ 
+    /* Group selector: styles both card headings together */
+    h2, h3 {
+      color: white;
+    }
+ 
+    /* CSS animation using @keyframes */
+    @keyframes floatCloud {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(15px);
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+  <h1>Lahore Weather Portal</h1>
+ 
+  <p class="subtitle">
+    Live updates from the Heart of Pakistan
+  </p>
+ 
+  <div class="weather-card">
+    <h2>Today's Weather</h2>
+ 
+    <div class="weather-icon">⛈️</div>
+ 
+    <p id="temperature">36°C</p>
+ 
+    <p class="details"><strong>City:</strong> Lahore</p>
+    <p class="details"><strong>Condition:</strong> Thunderstorms / Humid</p>
+    <p class="details"><strong>Humidity:</strong> 78%</p>
+    <p class="details"><strong>Wind Speed:</strong> 18 km/h</p>
+  </div>
+ 
+  <div class="forecast-section">
+    <h3 class="forecast-title">5-Day Outlook</h3>
+ 
+    <div class="day"><strong>Monday:</strong> 🌦️ Heavy Rain - 32°C</div>
+    <div class="day"><strong>Tuesday:</strong> ⛅ Partly Cloudy - 35°C</div>
+    <div class="day"><strong>Wednesday:</strong> ☀️ Hot & Sunny - 39°C</div>
+    <div class="day"><strong>Thursday:</strong> ☀️ Scorching - 40°C</div>
+    <div class="day"><strong>Friday:</strong> ⛈️ Evening Showers - 34°C</div>
+  </div>
+ 
+</body>
+</html>
