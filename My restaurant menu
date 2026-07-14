@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant Menu Card</title>
+ 
+  <style>
+    /* Universal Box Sizing */
+    * {
+      box-sizing: border-box;
+    }
+ 
+    /* Page Layout */
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #fcf3f3; /* Very soft pastel pink-white */
+      color: #2a2020;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+ 
+    /* The Menu Container */
+    .menu-card {
+      width: 580px;
+      border: 4px double #d14949; /* Crimson red double border */
+      border-radius: 20px;
+      background-color: #ffffff;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(209, 73, 73, 0.15); /* Soft red-pink shadow */
+    }
+ 
+    /* Restaurant Title styling */
+    .restaurant-name {
+      font-size: 38px;
+      font-weight: 800;
+      color: #d14949;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-shadow: 3px 3px 0px #fcdad7; /* Retro thick shadow */
+      margin-bottom: 5px;
+    }
+ 
+    /* Slogan / Subtitle styling */
+    .tagline {
+      font-size: 16px;
+      font-style: italic;
+      text-align: center;
+      color: #7d5a5a;
+      text-decoration: underline wavy #d14949; /* Wavy underline decoration */
+      margin-bottom: 30px;
+    }
+ 
+    /* Menu Categories layout */
+    .menu-section {
+      border: 1px dashed #e3a8a8;
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin-bottom: 25px;
+      box-shadow: inset 0 0 8px rgba(227, 168, 168, 0.1);
+    }
+ 
+    /* Category Title (e.g. Ramen, Sides) */
+    .section-title {
+      font-size: 24px;
+      color: #3d2424;
+      text-transform: uppercase;
+      text-decoration: overline;
+      letter-spacing: 2px;
+      margin-top: 5px;
+    }
+ 
+    /* Dish Name styling */
+    .dish-name {
+      font-size: 19px;
+      font-weight: bold;
+      color: #1a1515;
+      text-transform: capitalize;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      transition: transform 0.3s ease; /* Makes scale action smooth */
+    }
+ 
+    /* Hover scale transform effect */
+    .dish-name:hover {
+      transform: scale(1.05) translateX(10px); /* Slightly scales up and shifts right */
+      color: #d14949;
+      cursor: pointer;
+    }
+ 
+    /* Descriptions inside the menu */
+    .dish-description {
+      font-size: 14px;
+      line-height: 1.5;
+      text-indent: 20px; /* Indents the first line */
+      color: #6e5c5c;
+      margin-bottom: 15px;
+    }
+ 
+    /* Special Promo Banner styling */
+    .special-offer {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #2e6f40; /* Forest Green for high-contrast offer */
+      padding: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 2px #14331d;
+      box-shadow: 0 5px 15px rgba(46, 111, 64, 0.3);
+      transform: rotate(1deg); /* Slight rotation */
+      border-radius: 5px;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+ 
+<body>
+ 
+  <div class="menu-card">
+ 
+    <h1 class="restaurant-name">Sakura Ramen</h1>
+ 
+    <p class="tagline">Warm bowls for cold souls</p>
+ 
+    <div class="menu-section">
+      <h2 class="section-title">Appetizers</h2>
+ 
+      <p class="dish-name">Pork Gyoza</p>
+      <p class="dish-description">
+        Pan-fried pork dumplings with crispy edges, served with a savory vinegar soy dipping sauce.
+      </p>
+ 
+      <p class="dish-name">Edamame Beans</p>
+      <p class="dish-description">
+        Steamed green soybean pods lightly tossed in sea salt flakes and roasted sesame oil.
+      </p>
+    </div>
+ 
+    <div class="menu-section">
+      <h2 class="section-title">Ramen Bowls</h2>
+ 
+      <p class="dish-name">Classic Tonkotsu</p>
+      <p class="dish-description">
+        Rich pork bone broth served with thick noodles, chashu slices, soft-boiled egg, and green onion.
+      </p>
+ 
+      <p class="dish-name">Spicy Miso Ramen</p>
+      <p class="dish-description">
+        Fiery sesame-miso broth loaded with wavy noodles, spicy ground chicken, bamboo shoots, and chili oil.
+      </p>
+    </div>
+ 
+    <p class="special-offer">Buy 1 get 1 free boba this tuesday!</p>
+ 
+  </div>
+ 
+</body>
+</html>
