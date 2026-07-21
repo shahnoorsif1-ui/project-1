@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Glazed Donut Lounge</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff9f2; /* Soft warm ivory */
+      text-align: center;
+      color: #3e2723;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #e91e63;
+      font-size: 38px;
+      letter-spacing: 1px;
+    }
+
+    /* Adjacent Sibling Selector - Styles paragraph right after h1 */
+    h1 + p {
+      color: #8e24aa;
+      font-weight: bold;
+      background-color: #f3e5f5;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Pseudo-element for large drop-cap letter */
+    .shop-description::first-letter {
+      font-size: 40px;
+      color: #ff4081;
+      font-weight: bold;
+    }
+
+    /* Menu Container Card */
+    .menu-box {
+      width: 440px;
+      background-color: #ffffff;
+      border: 3px dashed #ff80ab;
+      border-radius: 20px;
+      margin: 25px auto;
+      padding: 25px;
+      box-shadow: 0 10px 20px rgba(233, 30, 99, 0.1);
+    }
+
+    h2 {
+      color: #d81b60;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    /* Direct Child Selector for list items */
+    ul > li {
+      list-style: none;
+      background-color: #fff0f3;
+      color: #4a148c;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 12px 0;
+      padding: 14px;
+      border-radius: 12px;
+      border: 2px solid #ff80ab;
+      transition: all 0.3s ease; /* Smooth hover transition */
+    }
+
+    /* nth-child selector - Highlights the 3rd item as Today's Special */
+    ul > li:nth-child(3) {
+      background-color: #fff8e1;
+      color: #e65100;
+      border: 3px solid #ffb300;
+      box-shadow: 0 4px 10px rgba(255, 179, 0, 0.25);
+    }
+
+    /* Hover interactivity */
+    ul > li:hover {
+      background-color: #ff4081;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.06) rotate(-1deg); /* Interactive tilt and grow */
+      box-shadow: 0 6px 15px rgba(255, 64, 129, 0.3);
+    }
+
+    /* Button Styling */
+    button {
+      background-color: #ab47bc;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 14px 30px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(171, 71, 188, 0.3);
+    }
+
+    /* Button Hover effect */
+    button:hover {
+      background-color: #d81b60;
+      transform: translateY(-3px); /* Subtle click-me bounce */
+      box-shadow: 0 6px 18px rgba(216, 27, 96, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>The Glazed Donut Lounge</h1>
+  <p>Freshly Baked Joy Every Single Day!</p>
+
+  <p class="shop-description">
+    We craft soft, warm, gourmet donuts with colorful toppings and rich glaze filling.
+  </p>
+
+  <div class="menu-box">
+    <h2>Today's Fresh Flavors</h2>
+    <ul>
+      <li>Classic Chocolate Sprinkle</li>
+      <li>Strawberry Sugar Crunch</li>
+      <li>Caramel Biscoff - Today's Special</li>
+      <li>Matcha Green Tea Glaze</li>
+      <li>Wild Blueberry Cream</li>
+    </ul>
+
+    <button>Order Your Box</button>
+  </div>
+
+</body>
+</html>
