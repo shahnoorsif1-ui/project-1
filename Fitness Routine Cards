@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Athlete Routine</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eef5f9;
+      color: #1c2d37;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0d47a1;
+      margin-top: 25px;
+    }
+
+    /* Intro box matching size/borders */
+    .intro {
+      width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px solid #0d47a1;
+      background-color: #ffffff;
+      border-radius: 8px;
+    }
+
+    /* Side-by-side cards using float */
+    .routine-card {
+      width: 250px;
+      height: 260px;
+      float: left;
+      margin: 15px;
+      padding: 18px;
+      border: 3px solid #0288d1;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .routine-card h2 {
+      color: #006064;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .routine-card p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #455a64;
+    }
+
+    .time {
+      color: #c62828;
+      font-weight: bold;
+    }
+
+    /* Clears the floats so the next row drops down */
+    .clear-section {
+      clear: both;
+    }
+
+    /* Bottom Tip Box */
+    .note {
+      width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px dashed #ff8f00;
+      background-color: #fff8e1;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Daily Athlete Routine</h1>
+
+  <div class="intro">
+    <p>
+      Welcome to my daily training schedule! This layout uses CSS float and box sizing to arrange fitness activity cards side-by-side.
+    </p>
+  </div>
+
+  <div class="routine-card">
+    <h2>Sunrise Warmup</h2>
+    <p>
+      Dynamic leg swings, arm circles, and light jogging to wake up muscles.
+    </p>
+    <p class="time">Time: 12 minutes</p>
+  </div>
+
+  <div class="routine-card">
+    <h2>Agility Drills</h2>
+    <p>
+      Fast footwork, ladder runs, and cone shuttles for speed and reaction.
+    </p>
+    <p class="time">Time: 18 minutes</p>
+  </div>
+
+  <div class="routine-card">
+    <h2>Core Circuit</h2>
+    <p>
+      Planks, russian twists, and bicycle crunches for abdominal strength.
+    </p>
+    <p class="time">Time: 15 minutes</p>
+  </div>
+
+  <div class="clear-section"></div>
+
+  <div class="routine-card">
+    <h2>Core Hydro Blast</h2>
+    <p>
+      High-intensity swimming laps to boost lung capacity and endurance.
+    </p>
+    <p class="time">Time: 30 minutes</p>
+  </div>
+
+  <div class="routine-card">
+    <h2>Cool Down Walk</h2>
+    <p>
+      Slow-paced treadmill walking combined with deep breathing techniques.
+    </p>
+    <p class="time">Time: 20 minutes</p>
+  </div>
+
+  <div class="routine-card">
+    <h2>Foam Rolling</h2>
+    <p>
+      Target tight hamstring and back muscles to prevent soreness and injury.
+    </p>
+    <p class="time">Time: 10 minutes</p>
+  </div>
+
+  <div class="clear-section"></div>
+
+  <div class="note">
+    <p>
+      Pro Athlete Tip: Stay consistent, prioritize 8 hours of sleep, and always refuel with protein within 30 minutes post-workout!
+    </p>
+  </div>
+
+</body>
+</html>
