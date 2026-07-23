@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoo Rescue Tracker</title>
+  <style>
+    /* Theme: Night Safari - Dark Midnight Blue, Vivid Sky Blue, and Amber Accents */
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a; /* Dark blue background */
+      color: #f1f5f9; /* Light text */
+      padding: 25px;
+      padding-top: 70px; /* Top padding to prevent fixed alert from covering content */
+      min-height: 1200px; /* Extra height to ensure page scrolls for testing sticky/fixed */
+    }
+
+    h1, h2 {
+      color: #38bdf8; /* Bright sky blue headings */
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    /* 1. FIXED POSITIONING: Alert banner stays pinned at top when scrolling */
+    .alert {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #0284c7; /* Cyan blue alert bar */
+      color: #ffffff;
+      padding: 14px;
+      text-align: center;
+      font-weight: bold;
+      z-index: 100;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* 2. STATIC POSITIONING: Default stacked boxes */
+    .animal {
+      background: #1e293b;
+      border: 2px solid #38bdf8;
+      padding: 10px;
+      margin: 8px 0;
+      width: 220px;
+      border-radius: 6px;
+    }
+
+    /* 3. RELATIVE POSITIONING: Moves element 35px to the right from original position */
+    .moved {
+      position: relative;
+      left: 35px;
+      background: #334155;
+      border-color: #0ea5e9;
+      font-weight: bold;
+    }
+
+    /* Container for absolute element positioning */
+    .card {
+      position: relative;
+      background: #1e293b;
+      border: 2px solid #38bdf8;
+      border-radius: 10px;
+      padding: 25px;
+      width: 230px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* 4. ABSOLUTE POSITIONING: Tag placed on top-right corner of panda card */
+    .tag {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #f59e0b; /* Bright amber tag */
+      color: #0f172a;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+    }
+
+    /* 5. STICKY POSITIONING: Zone header sticks near top when scrolling */
+    .zone {
+      position: sticky;
+      top: 50px;
+      background: #0ea5e9;
+      color: #ffffff;
+      padding: 10px;
+      margin-top: 25px;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .case {
+      background: #1e293b;
+      border: 2px solid #475569;
+      padding: 10px;
+      margin: 8px 0;
+      width: 230px;
+      border-radius: 8px;
+    }
+
+    code {
+      background: #334155;
+      color: #38bdf8;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="alert">Zoo Rescue Alert - Emergency team active | Fixed</div>
+
+  <h1>Zoo Rescue Tracker</h1>
+  <p style="text-align:center;">Learn CSS positioning by placing animal cards, rescue tags, and sticky zone labels.</p>
+
+  <h2>Static Positioning</h2>
+  <p>Static is the default position. Animal entries appear one below another.</p>
+  <div class="animal">Chimpanzee - Jungle zone</div>
+  <div class="animal">Elephant - Water zone</div>
+  <div class="animal">Polar bear - Ice zone</div>
+
+  <h2>Relative Positioning</h2>
+  <p>The rescued animal entry moves slightly using <code>left: 35px</code>.</p>
+  <div class="animal">Giraffe - Checkup pending</div>
+  <div class="animal moved">Angry lion - Calm</div>
+  <div class="animal">Zebra - Feeding zone</div>
+
+  <h2>Absolute Positioning</h2>
+  <p>The rescue tag is placed on the animal card using absolute positioning.</p>
+  <div class="card">
+   Wolf<br>
+    Medical check complete
+    <div class="tag">SAFE</div>
+  </div>
+
+  <h2>Fixed Positioning</h2>
+  <p>The green rescue alert at the top stays fixed even when you scroll.</p>
+
+  <h2>Sticky Positioning</h2>
+  <p>The rescue zone label sticks near the top while scrolling.</p>
+
+  <div class="zone">Rescue Zone Cases - Sticky</div>
+
+  <div class="case">Flamingo - Wingcheck</div>
+  <div class="case">Deer - Released</div>
+  <div class="case">Owl - Night care</div>
+  <div class="case">Turtle - Shell treatment</div>
+  <div class="case">Rabbit - Healthy</div>
+  <div class="case">Tiger - Observation</div>
+  <div class="case">Monkey - Play area</div>
+  <div class="case">Rhino - Recovery stable</div>
+
+  <h2>top, right, bottom, left</h2>
+  <p>
+    Use <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code>
+    to control where positioned elements appear.
+  </p>
+
+</body>
+</html>
