@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>School Club Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    /* Dark Theme with Neon Cyan accents */
+    body {
+      background-color: #0f172a;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 15px;
+      color: #e2e8f0;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #38bdf8;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #94a3b8;
+      margin-bottom: 40px;
+    }
+
+    /* Custom Club Cards */
+    .club-card {
+      text-align: center;
+      border: 2px solid #0284c7;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      background-color: #1e293b;
+      box-shadow: 0 4px 15px rgba(2, 132, 199, 0.2);
+      transition: transform 0.3s ease;
+      height: calc(100% - 25px); /* Equal height cards */
+    }
+
+    .club-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .club-card h3 {
+      color: #38bdf8;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .club-card p {
+      color: #cbd5e1;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Campus Life & Clubs</h1>
+  <p class="subtitle">Discover active student organizations and get involved!</p>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="club-card">
+          <h3>STEM Club</h3>
+          <p>Explore science, tech, engineering, and math through hands-on experiments and projects.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="club-card">
+          <h3>Debate & Speech</h3>
+          <p>Sharpen public speaking, construct persuasive arguments, and compete in forensics events.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="club-card">
+          <h3>Health & Wellness</h3>
+          <p>Promote physical fitness, mindfulness, and healthy living habits across campus.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="club-card">
+          <h3>Sustainability</h3>
+          <p>Lead eco-friendly initiatives, recycling drives, and environmental conservation awareness.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+
+</body>
+</html>
