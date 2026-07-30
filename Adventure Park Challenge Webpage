@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventure Park Challenge</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    /* Theme: Twilight Expedition - Midnight Blue, Coral Orange, and Cyan */
+    body {
+      background-color: #0b1329;
+      color: #e2e8f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #ff6b4a; /* Coral Accent */
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #38bdf8; /* Cyan Heading */
+      margin-top: 30px;
+    }
+
+    h3 {
+      color: #ffffff;
+    }
+
+    small {
+      color: #94a3b8;
+    }
+
+    dl {
+      text-align: left;
+      display: inline-block;
+    }
+
+    dt {
+      color: #ff6b4a;
+      font-weight: bold;
+    }
+
+    dd {
+      color: #cbd5e1;
+    }
+
+    mark {
+      background-color: #ff6b4a;
+      color: #ffffff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    code {
+      background-color: #1e293b;
+      color: #38bdf8;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    abbr {
+      color: #38bdf8;
+      font-weight: bold;
+      cursor: help;
+    }
+
+    pre {
+      background-color: #1e293b;
+      color: #38bdf8;
+      padding: 15px;
+      border-radius: 8px;
+      display: inline-block;
+      text-align: left;
+      border: 1px solid #334155;
+    }
+
+    blockquote {
+      border-left: 4px solid #ff6b4a;
+      padding-left: 15px;
+      color: #cbd5e1;
+      font-style: italic;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .blockquote-footer {
+      color: #94a3b8;
+    }
+
+    hr {
+      border-color: #1e293b;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Adventure Park Challenge</h1>
+  <p>Master park typography elements while discovering thrilling attraction zones and safety protocols.</p>
+
+  <hr>
+
+  <h2>Explorer Levels</h2>
+  <p class="display-1">Apex Voyager</p>
+  <p class="display-2">Peak Climber</p>
+  <p class="display-3">Forest Ranger</p>
+  <p class="display-4">Rookie Pathfinder</p>
+
+  <hr>
+
+  <h2>Registered Adventurers</h2>
+  <h3>Liam <small>Pass Level: Apex Voyager</small></h3>
+  <h3>Sophia <small>Pass Level: Peak Climber</small></h3>
+  <h3>Ethan <small>Pass Level: Forest Ranger</small></h3>
+
+  <hr>
+
+  <h2>Safety Briefing & Checklist</h2>
+  <p>All visitors must gather at <mark>Checkpoint Alpha</mark> prior to launch.</p>
+  <p>The emergency assembly area is located at <mark>Summit Base</mark>.</p>
+
+  <hr>
+
+  <h2>Attraction Glossary</h2>
+  <dl>
+    <dt>Giga Zip Line</dt>
+    <dd>A high-speed aerial cable ride descending across the central canyon.</dd>
+
+    <dt>Boulder Run</dt>
+    <dd>An obstacle-filled climbing track designed for team navigation.</dd>
+
+    <dt>Thunder Rapids</dt>
+    <dd>An intense white-water rafting simulator along artificial river surges.</dd>
+  </dl>
+
+  <hr>
+
+  <h2>System Terminal Commands</h2>
+  <p>Initialize zip cable: <code>launch.deploy("Giga Zip Line")</code></p>
+  <p>Unlock obstacle gate: <code>gate.access("Boulder Run")</code></p>
+  <p>Halt water pumps: <code>system.pause("Thunder Rapids")</code></p>
+
+  <hr>
+
+  <h2>Park Organization Codes</h2>
+  <p><abbr title="Adventure Park Operations Center">APOC</abbr> monitors real-time ride safety metrics.</p>
+  <p><abbr title="Emergency Medical Response Unit">EMRU</abbr> stations paramedics throughout every challenge zone.</p>
+  <p><abbr title="Young Explorers Federation">YEF</abbr> conducts guided tours for junior participants.</p>
+
+  <hr>
+
+  <h2>Official Expedition Itinerary</h2>
+  <pre>
+09:30 AM  -  Check-In & Gear Allocation
+10:30 AM  -  Giga Zip Line Challenge
+12:30 PM  -  Boulder Run Navigation
+02:30 PM  -  Thunder Rapids Run
+04:00 PM  -  Badging Ceremony
+  </pre>
+
+  <hr>
+
+  <h2>Park Philosophy</h2>
+  <blockquote class="blockquote">
+    <p>"Courage is not the absence of fear, but the triumph over it."</p>
+    <footer class="blockquote-footer">Adventure Park Leadership</footer>
+  </blockquote>
+
+</body>
+
+</html>
