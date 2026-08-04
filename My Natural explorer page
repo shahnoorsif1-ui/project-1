@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Nature Explorer Page</title>
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+  
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: Arial, sans-serif;
+    }
+    .card-box {
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid bg-secondary text-white p-4 text-center">
+    <h1 class="display-4 font-weight-bold">My Nature Explorer Page</h1>
+    <p class="lead">Discover Earth's vibrant ecosystems, wild habitats, and natural wonders.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="bg-dark text-white p-4 my-3 border border-success card-box">
+      <h2 class="text-success">Rainforest Canopy</h2>
+      <p>
+        Rainforests generate vast amounts of oxygen and host more than half of the world's plant and animal species.
+      </p>
+    </div>
+
+    <div class="bg-dark text-white p-4 my-3 border border-info card-box">
+      <h2 class="text-info">Ocean Depths</h2>
+      <p>
+        Oceans cover over 70% of Earth's surface, regulating global climate and supporting diverse marine life.
+      </p>
+    </div>
+
+    <div class="bg-dark text-white p-4 my-3 border border-warning card-box">
+      <h2 class="text-warning">Desert Safari</h2>
+      <p>
+        Deserts are extreme environments where unique flora and fauna have adapted to survive with minimal water.
+      </p>
+    </div>
+
+    <div class="bg-dark text-white p-4 my-3 border border-primary card-box">
+      <h2 class="text-primary">Arctic Tundra</h2>
+      <p>
+        The tundra is a vast, icy expanse where species like polar bears and arctic foxes brave freezing winds.
+      </p>
+    </div>
+
+    <div class="bg-secondary text-white p-4 my-3 border border-light card-box">
+      <h2>Eco-Explorer Guidelines</h2>
+      <ul>
+        <li>Leave no trace behind on trails</li>
+        <li>Respect wild animal habitats</li>
+        <li>Use reusable containers and gear</li>
+        <li>Stay on designated paths to protect flora</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="container-fluid bg-success text-white p-3 my-4 text-center">
+    <p class="mb-0 font-weight-bold">Nature Tip: Every small conservation action helps preserve our planet's biodiversity.</p>
+  </div>
+
+</body>
+</html>
