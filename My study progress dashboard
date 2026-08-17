@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Skill Mastery & Progress Tracker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    /* Theme: Deep Midnight Slate with Cyber-Amethyst Violet Accents */
+    body { 
+      background-color: #0b0f19; 
+      color: #f1f5f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    
+    .jumbotron { 
+      background-color: #1e1b4b; 
+      border-bottom: 4px solid #a855f7; 
+      padding: 50px 15px;
+    }
+    
+    .jumbotron h1 { 
+      color: #c084fc; 
+      font-weight: 800;
+    }
+    
+    .section-title { 
+      color: #a855f7; 
+      margin-top: 35px; 
+      margin-bottom: 20px; 
+      font-weight: 700;
+    }
+    
+    .subject-label { 
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .metrics-container {
+      background-color: #111827;
+      border: 1px solid #374151;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPIC 1: JUMBOTRON -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center text-md-left">
+      <h1>Skill Mastery Dashboard</h1>
+      <p class="lead text-muted">Monitor your dynamic courses, earned milestones, and current learning metrics in real time.</p>
+
+      <!-- TOPIC 2: BUTTONS -->
+      <div class="mt-4">
+        <button class="btn btn-info mr-2 shadow-sm">Calculus</button>
+        <button class="btn text-white mr-2 shadow-sm" style="background-color: #7c3aed;">Physics</button>
+        <button class="btn btn-success mr-2 shadow-sm">AI & Tech</button>
+        <button class="btn btn-warning text-dark mr-2 shadow-sm">Literature</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pb-5">
+
+    <!-- TOPIC 3: BADGES -->
+    <h2 class="section-title">Milestones Attained <span class="badge badge-pill badge-primary">32</span></h2>
+
+    <div class="row metrics-container p-4 mx-1">
+      <div class="col-6 col-md-3 text-center">
+        <p class="subject-label">Calculus</p>
+        <span class="badge badge-info p-2 px-3">10 Modules</span>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <p class="subject-label">Physics</p>
+        <span class="badge p-2 px-3 text-white" style="background-color: #7c3aed;">8 Modules</span>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <p class="subject-label">AI & Tech</p>
+        <span class="badge badge-success p-2 px-3">9 Modules</span>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <p class="subject-label">Literature</p>
+        <span class="badge badge-warning text-dark p-2 px-3">5 Modules</span>
+      </div>
+    </div>
+
+    <!-- TOPIC 4: PROGRESS BARS -->
+    <h2 class="section-title">Current Domain Progress</h2>
+
+    <p class="subject-label">Calculus</p>
+    <div class="progress mb-4" style="height: 25px;">
+      <div class="progress-bar bg-info progress-bar-striped progress-bar-animated font-weight-bold text-dark" style="width: 85%">85% Complete</div>
+    </div>
+
+    <p class="subject-label">Physics</p>
+    <div class="progress mb-4" style="height: 25px;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated font-weight-bold" style="width: 60%; background-color: #7c3aed;">60% Complete</div>
+    </div>
+
+    <p class="subject-label">AI & Tech</p>
+    <div class="progress mb-4" style="height: 25px;">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated font-weight-bold text-dark" style="width: 75%">75% Complete</div>
+    </div>
+
+    <p class="subject-label">Literature</p>
+    <div class="progress mb-4" style="height: 25px;">
+      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated font-weight-bold text-dark" style="width: 45%">45% Complete</div>
+    </div>
+
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
