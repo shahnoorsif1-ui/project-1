@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Digital Zoo Manager</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eef2f5;
+      text-align: center;
+      color: #1e293b;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0f172a;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #64748b;
+      margin-bottom: 25px;
+    }
+
+    /* Layout wrapper using Flexbox to place zoo and output side-by-side */
+    .dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    #zoo {
+      flex: 1;
+      min-width: 320px;
+      border: 2px solid #cbd5e1;
+      border-radius: 16px;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .zone {
+      border: 2px solid #e2e8f0;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      padding: 15px;
+      background-color: #f8fafc;
+      text-align: left;
+      transition: all 0.3s ease;
+    }
+
+    .animal {
+      font-weight: bold;
+      color: #2563eb;
+    }
+
+    button {
+      background-color: #059669;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 12px 28px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 15px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    button:hover {
+      background-color: #047857;
+    }
+
+    #output {
+      flex: 1;
+      min-width: 320px;
+      border: 2px solid #059669;
+      border-radius: 16px;
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🐾 Digital Zoo Control Panel</h1>
+  <p class="subtitle">
+    Explore DOM nodes, siblings, and real-time element updates.
+  </p>
+
+  <button onclick="manageZoo()">Run Zoo Inspection</button>
+
+  <div class="dashboard">
+    <!-- Zoo Container -->
+    <div id="zoo">
+      <div class="zone" id="lionZone">
+        <h2>Lion Enclosure</h2>
+        <p>Resident: <span class="animal">Lion</span></p>
+      </div>
+
+      <div class="zone" id="elephantZone">
+        <h2>Elephant Enclosure</h2>
+        <p>Resident: <span class="animal">Elephant</span></p>
+      </div>
+
+      <div class="zone" id="pandaZone">
+        <h2>Panda Enclosure</h2>
+        <p>Resident: <span class="animal">Panda</span></p>
+      </div>
+    </div>
+
+    <!-- Output Box -->
+    <div id="output">
+      <em>Click the inspection button above to generate DOM tree data.</em>
+    </div>
+  </div>
+
+  <script>
+    function manageZoo() {
+
+      // Selecting elements from the DOM
+      let zoo = document.getElementById("zoo");
+      let lionZone = document.getElementById("lionZone");
+      let elephantZone = document.getElementById("elephantZone");
+      let pandaZone = document.getElementById("pandaZone");
+      let output = document.getElementById("output");
+
+      // Parent, Child, and Sibling Node values
+      let parentNodeName = lionZone.parentNode.id;
+      let firstChildZone = zoo.children[0].id;
+      let secondChildZone = zoo.children[1].id;
+      let nextSiblingZone = lionZone.nextElementSibling.id;
+      let previousSiblingZone = pandaZone.previousElementSibling.id;
+
+      // Node Types
+      let elementNodeType = lionZone.nodeType;
+      let textNodeType = lionZone.firstChild.nodeType;
+
+      // Applying live background color and heading updates
+      lionZone.style.backgroundColor = "#fef3c7";
+      elephantZone.style.backgroundColor = "#e0f2fe";
+      pandaZone.style.backgroundColor = "#fce7f3";
+
+      lionZone.querySelector("h2").innerHTML = "🦁 Lion Enclosure (Inspected)";
+      elephantZone.querySelector("h2").innerHTML = "🐘 Elephant Enclosure (Inspected)";
+      pandaZone.querySelector("h2").innerHTML = "🐼 Panda Enclosure (Inspected)";
+
+      // Printing results to output
+      output.innerHTML =
+        "<h3 style='margin-top:0; color:#059669;'>DOM Inspection Results</h3>" +
+        "<strong>Tree Structure:</strong><br>" +
+        "• Parent ID: <code>" + parentNodeName + "</code><br>" +
+        "• Child 1 ID: <code>" + firstChildZone + "</code><br>" +
+        "• Child 2 ID: <code>" + secondChildZone + "</code><br><br>" +
+
+        "<strong>Sibling Navigation:</strong><br>" +
+        "• Next Sibling of Lion: <code>" + nextSiblingZone + "</code><br>" +
+        "• Previous Sibling of Panda: <code>" + previousSiblingZone + "</code><br><br>" +
+
+        "<strong>Node Classification:</strong><br>" +
+        "• Element Node Type: <code>" + elementNodeType + "</code><br>" +
+        "• Text Node Type: <code>" + textNodeType + "</code>";
+    }
+  </script>
+
+</body>
+</html>
