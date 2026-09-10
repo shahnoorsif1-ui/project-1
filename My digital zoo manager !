@@ -5,7 +5,7 @@
 
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'futura, Tahoma, Geneva, Verdana, sans-serif;
       background-color: #eef2f5;
       text-align: center;
       color: #1e293b;
